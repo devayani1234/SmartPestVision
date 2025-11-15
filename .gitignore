@@ -1,0 +1,37 @@
+@'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+.venv/
+
+# Virtual env
+.Python
+env/
+ENV/
+.venv/
+.env/
+
+# Dataset / large files (do NOT track)
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# VS / IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Lockfiles
+pip-selfcheck.json
+'@ | Out-File -Encoding utf8 .gitignore

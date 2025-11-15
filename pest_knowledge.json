@@ -1,0 +1,108 @@
+{
+  "Pulse beetle": {
+    "common_name": "Pulse Beetle (Callosobruchus chinensis)",
+    "damage": "Larvae bore into pulses causing weight loss and quality reduction.",
+    "treatments": [
+      "Sift infested grains and remove damaged ones.",
+      "Store at low humidity (<12%) and low temperature.",
+      "Use diatomaceous earth (food-grade) at recommended doses.",
+      "Consider neem-based botanical sprays for small-scale storage."
+    ],
+    "prevention": [
+      "Clean storage containers before refilling.",
+      "Use airtight containers or hermetic bags.",
+      "Monitor weekly for early signs."
+    ],
+    "severity_index": 0.7
+  },
+
+  "Rice weevil": {
+    "common_name": "Rice Weevil (Sitophilus oryzae)",
+    "damage": "Creates bore holes and reduces grain weight; lays eggs inside grain.",
+    "treatments": [
+      "Remove heavily infested lots; sun-dry the grains.",
+      "Apply diatomaceous earth or approved contact insecticide per label.",
+      "Store cereals in sealed containers and maintain low moisture."
+    ],
+    "prevention": [
+      "Inspect new grain before mixing with old stock.",
+      "Use pheromone traps for monitoring.",
+      "Rotate stock (first in, first out)."
+    ],
+    "severity_index": 0.85
+  },
+
+  "Storage pests in grains": {
+    "common_name": "Common Grain Storage Pests",
+    "damage": "General contamination and damage by multiple species.",
+    "treatments": [
+      "Remove visibly infested grains and sanitize storage.",
+      "Use cold storage (if feasible) for a few days to kill pests.",
+      "Consider professional fumigation for severe infestations."
+    ],
+    "prevention": [
+      "Keep storage areas dry and clean.",
+      "Use mesh screens and sealed containers."
+    ],
+    "severity_index": 0.6
+  },
+
+  "EGG": {
+    "common_name": "Eggs (Pest early-stage)",
+    "damage": "Potential future infestation if eggs hatch.",
+    "treatments": [
+      "Remove eggs manually if possible.",
+      "Sanitize and isolate affected grains.",
+      "Consider targeted low-toxicity treatment to prevent hatching."
+    ],
+    "prevention": [
+      "Frequent monitoring; use sticky traps for adults.",
+      "Temperature/humidity control to discourage hatching."
+    ],
+    "severity_index": 0.4
+  },
+
+  "LARVA": {
+    "common_name": "Larvae (active feeders)",
+    "damage": "High — larvae feed and make bore holes; can rapidly damage stock.",
+    "treatments": [
+      "Isolate and destroy heavily infested samples.",
+      "Consider targeted biological control or approved insecticides.",
+      "Lower humidity and dry grains immediately."
+    ],
+    "prevention": [
+      "Monitor frequently and remove debris.",
+      "Keep grain dry and sealed."
+    ],
+    "severity_index": 0.9
+  },
+
+  "Bore holes": {
+    "common_name": "Bore holes (sign of internal infestation/damage)",
+    "damage": "Indicator of activity inside grains; usually weevil or larval activity.",
+    "treatments": [
+      "Inspect for live pests; discard heavily damaged grains.",
+      "Implement drying and sealing.",
+      "Consider professional fumigation for severe cases."
+    ],
+    "prevention": [
+      "Regular sampling and sieving.",
+      "Keep grain moisture low."
+    ],
+    "severity_index": 0.8
+  },
+
+  "Grain - Rice weevil": {
+    "common_name": "Rice Weevil on Grain (damage visuals)",
+    "damage": "Visible external/embedded weevil damage on grains.",
+    "treatments": [
+      "Remove damaged grains and sun-dry stock.",
+      "Use sealed, dry storage and monitor closely."
+    ],
+    "prevention": [
+      "Inspect supply before storage.",
+      "Use hermetic storage."
+    ],
+    "severity_index": 0.82
+  }
+}
